@@ -1,13 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import TodoApp from './TodoApp';
+import Gallery from "./Gallery";
 
-class App extends React.Component {
-  render(){
+
+function App() {
   return (
-    <TodoApp />
+    <div>
+      <Gallery />
+    </div>
   );
-  }
 }
 export default App;
